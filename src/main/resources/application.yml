@@ -1,0 +1,15 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: your-email@gmail.com
+    password: your-app-password
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.starttls.enable: true
+
+tracker:
+#  url: "https://shop.amul.com/en/product/amul-high-protein-rose-lassi-200-ml-or-pack-of-30"
+  url: "https://shop.amul.com/en/product/amul-high-protein-buttermilk-200-ml-or-pack-of-30"
+  check-interval: 300000
+  notify-email: "your-email@gmail.com"
